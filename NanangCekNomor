@@ -1,0 +1,8 @@
+no = input()
+
+print(no)
+if no[0]!= 0 or no[1]!= 8 or (len(no) == 12 or len(no) == 11) :
+    print("TIDAK VALID")
+else:
+    print ("VALID")
+        
